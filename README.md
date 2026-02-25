@@ -2,5 +2,5 @@
 
 Repositório de aulas - Programação Web
 
-PRIMEIRA VEZ USANDO GIT!!
+PRIMEIRA VEZ USANDO GIT!! :sparkles:
 
