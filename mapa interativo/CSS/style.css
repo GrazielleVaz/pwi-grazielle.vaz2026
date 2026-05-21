@@ -23,11 +23,18 @@ body {
 }
 
 /* O tamanho e a posição de cada "caixa invisível" de clique */
-.america {
+.america1 {
     width: 240px;
     height: 260px;
-    left: 40px;
-    top: 70px;
+    left: 54px;
+    top: 105px;
+}
+
+.america2 {
+    width: 240px;
+    height: 260px;
+    left: 210px;
+    top: 322px;
 }
 
 .europa {
@@ -40,7 +47,7 @@ body {
 .africa {
     width: 150px;
     height: 180px;
-    left: 487px;
+    left: 468px;
     top: 276px;
 }
 
@@ -54,8 +61,8 @@ body {
 .oceania {
     width: 150px;
     height: 120px;
-    left: 700px;
-    top: 350px;
+    left: 770px;
+    top: 355px;
 }
 
 /* Código para mostrar a plaquinha com o nome ao passar o mouse */
