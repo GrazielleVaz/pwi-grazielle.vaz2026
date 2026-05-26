@@ -2,9 +2,10 @@
 
 
 body {
-    background: #31a5b9;
+    background: #487c51;
     font-family: "Roboto Slab", serif;
     text-align: center;
+    color: white;
 }
 
 .imagens{
@@ -15,4 +16,6 @@ body {
 
 .corais{
     width: 700px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
 }

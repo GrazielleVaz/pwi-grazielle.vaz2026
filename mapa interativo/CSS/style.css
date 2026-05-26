@@ -1,17 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 body {
-    background: #f5e7e7;
-    font-family: Arial;
+    background: #5c92d8;
+    font-family: "Roboto Slab", serif;
     text-align: center;
+    color: white;
 }
 
 .mapa {
     position: relative;
-    width: 900px;
+    width: 820px;
     height: 500px;
     margin: 30px auto;
     
-    /* Esta é a ÚNICA imagem que você vai precisar agora */
-    background: url("../img/mapa.png");
+    /* Esta é a imagem do mapa */
+    background: url("../img/mapa1.png");
     background-size: cover;
     background-repeat: no-repeat;
 }

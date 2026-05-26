@@ -2,7 +2,7 @@
 
 
 body {
-    background: #fbd3ff;
+    background: #d3f8ff;
     font-family: "Roboto Slab", serif;
     text-align: center;
 }
@@ -15,4 +15,6 @@ body {
 
 .torre{
     width: 700px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
 }

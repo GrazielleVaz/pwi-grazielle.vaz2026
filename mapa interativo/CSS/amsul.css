@@ -2,7 +2,7 @@
 
 
 body {
-    background: #d3fdf6;
+    background: #ffc77f;
     font-family: "Roboto Slab", serif;
     text-align: center;
 }
@@ -15,4 +15,6 @@ body {
 
 .catarata{
     width: 700px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
 }
