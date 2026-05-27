@@ -1,10 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 body {
-    background: #5c92d8;
+    background: #152438;
     font-family: "Roboto Slab", serif;
     text-align: center;
     color: white;
+}
+
+body{
+    margin:0;
+    padding-top:120px;
+}
+
+nav{
+    width:100%;
+
+    position:fixed;
+    top:0;
+    left:0;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 60px;
+
+    background:rgba(10,20,40,0.45);
+
+    backdrop-filter:blur(10px);
+
+    z-index:999;
+}
+
+.logo{
+    color:white;
+
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    gap:40px;
+
+    list-style:none;
+}
+
+nav a{
+    color:white;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#5c92d8;
+
+    text-shadow:0 0 15px #5c92d8;
 }
 
 .mapa {
@@ -12,6 +67,7 @@ body {
     width: 820px;
     height: 500px;
     margin: 30px auto;
+    box-shadow: 0 0 80px rgb(0, 0, 0); border-radius: 20px;
     
     /* Esta é a imagem do mapa */
     background: url("../img/mapa1.png");
@@ -29,43 +85,43 @@ body {
 .america1 {
     width: 240px;
     height: 260px;
-    left: 54px;
+    left: 38px;
     top: 105px;
 }
 
 .america2 {
     width: 240px;
     height: 260px;
-    left: 210px;
-    top: 322px;
+    left: 146px;
+    top: 287px;
 }
 
 .europa {
     width: 120px;
     height: 100px;
-    left: 480px;
-    top: 110px;
+    left: 344px;
+    top: 135px;
 }
 
 .africa {
     width: 150px;
     height: 180px;
-    left: 468px;
-    top: 276px;
+    left: 360px;
+    top: 240px;
 }
 
 .asia {
     width: 300px;
     height: 220px;
-    left:690px;
+    left: 540px;
     top: 120px;
 }
 
 .oceania {
-    width: 150px;
-    height: 120px;
-    left: 770px;
-    top: 355px;
+    width: 300px;
+    height: 220px;
+    left: 640px;
+    top: 320px;
 }
 
 /* Código para mostrar a plaquinha com o nome ao passar o mouse */
